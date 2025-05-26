@@ -1,0 +1,33 @@
+.hero {
+    height: 15rem;
+    grid-area: hero;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero .background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    filter: saturate(50%);
+
+}
+
+.hero .background-color {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--brand-dark-blue);
+    opacity: .6;
+}
+
+.hero .logo {
+    position: relative;
+    width: 20rem;
+    filter: invert();
+    z-index: 1;
+}
